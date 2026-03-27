@@ -1,9 +1,58 @@
+:root{
+    --darkgreen: #0A3323;
+    --mossgreen: #839958;
+    --beige: #F7F4D5;
+    --rosybrown: #D3968C;
+    --midnightgreen: #105666;
+
+}
+
 *{
-    margin: 8;
-    padding: 5px;
+    margin: 0;
+    color: var(--darkgreen);
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
-    margin: 8;
-    padding: 5px;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--beige);
+    color: var(--darkgreen);
+}
+
+
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--mossgreen);
+  color: var(--rosybrown);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
